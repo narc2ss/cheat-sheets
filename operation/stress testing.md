@@ -8,7 +8,7 @@
 
 k6에서 제공해주는 API를 사용하여 10분동안 600명의 target을 설정하고 POST 메서드를 호출하도록 스크립트를 작성하였다.
 
-```bash
+```javascript
 import { sleep } from "k6";
 import http from "k6/http";
 
